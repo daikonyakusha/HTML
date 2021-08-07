@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list {
+  margin: 50px auto;
+  width: 960px;
+}
+.list-item:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.list-name {
+  padding: 20px 0 20px 20px;
+}
+.big-haco {
+  margin: 50px auto 50px;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.haco {
+  width: 30%;
+  height: 200px;
+}
+.haco:nth-child(1) {
+  background-color: orange;
+}
+.haco:nth-child(2) {
+  background-color: yellow;
+  margin-left: 5%;
+}
+.haco:nth-child(3) {
+  background-color: yellow;
+  margin-left: 5%;
+}
+.haco:nth-child(4) {
+  background-color: yellow;
+  margin-top: 40px;
+}
+.haco:nth-child(5) {
+  background-color: orange;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+.haco:nth-child(6) {
+  background-color: yellow;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+.haco:nth-child(7) {
+  background-color: yellow;
+  margin-top: 40px;
+}
+.haco:nth-child(8) {
+  background-color: yellow;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+.haco:nth-child(9) {
+  background-color: orange;
+  margin-left: 5%;
+  margin-top: 40px;
+}
